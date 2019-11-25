@@ -18,5 +18,6 @@ while True:
     
     conn.send(response)
             
+
     conn.close()
     print("Closed.")
