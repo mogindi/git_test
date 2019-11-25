@@ -15,7 +15,6 @@ while True:
      +"Content-Type: text/html\n"
      +"\n" # Important!
      +"<html><body>Hello World</body></html>\n", 'utf-8')
-     
     
     conn.send(response)
             
