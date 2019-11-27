@@ -6,7 +6,7 @@ s.bind(('localhost', 12345))
 s.listen(1)
 
 while True:
-    conn, addr = s.accept()
+    conn, addr = s.accept()s
     print("New connection from " + str(addr) + ".")
      
     data = conn.recv(1024)
