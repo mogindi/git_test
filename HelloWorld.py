@@ -2,11 +2,11 @@ import socket
 import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('localhost', 12345))
+s.bind(('localhost', 22345))
 s.listen(1)
 
 while True:
-    conn, addr = s.accept()s
+    conn, addr = s.accept()
     print("New connection from " + str(addr) + ".")
      
     data = conn.recv(1024)
