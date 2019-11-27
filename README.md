@@ -1,9 +1,3 @@
 # git_test
 
-dsafl;jsadk'lfjasdf
-asdfsadf
-
-asdfadsfsadfsdaf
-
-asdfadsfsadf
-asdfasdf
+Repository for dud application used for devops demos
