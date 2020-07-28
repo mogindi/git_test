@@ -2,7 +2,7 @@ import socket
 import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('localhost', 12345))
+s.bind(('0.0.0.0', 12345))
 s.listen(1)
 
 while True:
