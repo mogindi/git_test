@@ -2,7 +2,7 @@ import socket
 import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('0.0.0.0', 12345))
+s.bind(('', 12345))
 s.listen(1)
 
 while True:
@@ -14,7 +14,7 @@ while True:
     response = bytes("HTTP/1.1 200 OK\n"
      +"Content-Type: text/html\n"
      +"\n" # Important!
-     +"<html><body>Hello World!</body></html>\n", 'utf-8')
+     +"<html><body>Hello World!</body></html>\n")
     
     conn.send(response)
             
